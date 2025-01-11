@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next';
     import { GoogleGenerativeAI } from "@google/generative-ai";
 
-    const apiKey = "AIzaSyCf6qjwPusCsdG39v-1RAEQivCyOUTXo2c";
+    const apiKey = "XXXXXXXXXXXXX";
 
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({ model: "gemini-pro"});
